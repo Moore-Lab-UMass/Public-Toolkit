@@ -7,6 +7,7 @@
 # (1) The ENCODE Project Consortium, Moore...Weng (2020) Nature
 # (2) Moore...Weng (2022) Genome Research 
 
+#each peak should have unique identifier in col 4 (e.g. exp_number, exp_chrom_start_stop)
 cat *peaks.bed > tmp.bed #concatenate all peaks into a file
 
 echo -e "Sorting peaks"
