@@ -10,7 +10,7 @@ sort -k1,1 -k2,2n tmp.bed > sorted
 rm -f rPeaks
 num=$(wc -l sorted | awk '{print $1}')
 
-echo -e "Merging DHSs..."
+echo -e "Merging peaks..."
 while [ $num -gt 0 ]
 do
     echo -e "\t" $num
