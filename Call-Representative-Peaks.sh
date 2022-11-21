@@ -3,6 +3,10 @@
 #UMass Chan
 #November 2022
 
+#Generalized pipeline used in:
+# (1) The ENCODE Project Consortium, Moore...Weng (2020) Nature
+# (2) Moore...Weng (2022) Genome Research 
+
 cat *peaks.bed > tmp.bed #concatenate all peaks into a file
 
 echo -e "Sorting peaks"
